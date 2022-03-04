@@ -36,15 +36,18 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h2>ACE: Augment-Connect-Explore, Dealing with Data Scarcity in Visual Action Planning</h2>
+							<h2>Augment-Connect-Explore: a Paradigm for  Visual Action Planning with Data Scarcity </h2>
 							<h3>Martina Lippi*, Michael C. Welle*, Petra Poklukar, Alessandro Marino, and Danica Kragic</h3>
 							<p>
-							TODO  
+							Visual action planning particularly excels in applications where the state of the system cannot be computed explicitly, such as manipulation of deformable objects, as it enables planning directly from raw images. 
+							Even though the field has been significantly accelerated by deep learning techniques, a crucial requirement for their success is the availability of a large amount of data.
+							In this work, we propose the Augment-Connect-Explore (ACE) paradigm to enable visual action planning in cases of data scarcity. 
+							 We build upon the Latent Space Roadmap (LSR) framework which performs planning with a graph built in a low dimensional latent space. In particular, ACE is used to \emph{i)} Augment the available training dataset by autonomously creating new pairs of datapoints, \emph{ii)} create new unobserved Connections among representations of states in the latent graph, and \emph{iii)} Explore new regions of the latent space in a targeted manner. We validate the proposed approach on both simulated  box stacking and real-world folding task showing the applicability for rigid and deformable object manipulation tasks, respectively.   
 							</p>
 							<p> 
 							<small>*Contributed equally and listed in alphabetical order</small>
 							</p>
-							<a href="files/visual_action_planning_ace_lsr.pdf" download="files/visual_action_planning_ace_lsr.pdf">Download Paper TODO</a>
+							<a href="files/lippi_augment.pdf" download="files/lippi_augment.pdf">Download Paper</a>
 							<p> </p>
 							
 							
@@ -67,7 +70,7 @@
 							<div class="row">
 								<!--article class="col-4 col-12-xsmall work-item"-->
 									<video controls="" class="overview-video">
-									  <source src="videos/lsr_video_extended.mp4" type="video/mp4">									
+									  <source src="videos/ace_summary.mp4" type="video/mp4">									
 									</video>
 								<!--/article-->
 							</div>
@@ -110,15 +113,16 @@
 								
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Start state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Goal state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 							</div>
 
-							<p> <a class="button mybutton"  href="execution_videos_fold_01.html" > Execution videos fold 1</a> </p>
+
+							<p> <a class="button mybutton"  href="execution_videos_ace_fold_01.html" > Execution videos fold 1</a> </p>
 							<p></p>
 
 							<h3>Fold 2</h3>
@@ -127,16 +131,19 @@
 								
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Start state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Goal state</h2>
-									<a  class="image"><img src="images/L1/F02/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F02/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 							</div>
 
-							<p> <a class="button mybutton"  href="execution_videos_fold_02.html" > Execution videos fold 2</a> </p>
+						
+
+							<p> <a class="button mybutton"  href="execution_videos_ace_fold_02.html" > Execution videos fold 2</a> </p>
 							<p></p>
+
 
 
 							<h3>Fold 3</h3>
@@ -145,14 +152,16 @@
 								
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Start state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Goal state</h2>
-									<a  class="image"><img src="images/L1/F03/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F03/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 							</div>
-							<p> <a class="button mybutton"  href="execution_videos_fold_03.html" > Execution videos fold 3</a> </p>
+						
+
+							<p> <a class="button mybutton"  href="execution_videos_ace_fold_03.html" > Execution videos fold 3</a> </p>
 							<p></p>
 
 
@@ -162,15 +171,18 @@
 								
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Start state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Goal state</h2>
-									<a  class="image"><img src="images/L1/F04/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F04/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 							</div>
-							<p> <a class="button mybutton"  href="execution_videos_fold_04.html" > Execution videos fold 4</a> </p>
+						
+
+							<p> <a class="button mybutton"  href="execution_videos_ace_fold_04.html" > Execution videos fold 4</a> </p>
 							<p></p>
+
 
 
 							<h3>Fold 5</h3>
@@ -179,15 +191,26 @@
 								
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Start state</h2>
-									<a  class="image"><img src="images/L1/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F01/T01/S_01.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 								<article class="col-4 col-12-xsmall work-item">
 									<h2>Goal state</h2>
-									<a  class="image"><img src="images/L1/F05/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
+									<a  class="image"><img src="images/web_org/F05/T01/G.png" alt="" data-position="center center" style="height:200px;"/></a>
 								</article>	
 							</div>
-							<p> <a class="button mybutton"  href="execution_videos_fold_05.html" > Execution videos fold 5</a> </p>
+						
+
+							<p> <a class="button mybutton"  href="execution_videos_ace_fold_05.html" > Execution videos fold 5</a> </p>
 							<p></p>
+
+							<h3>Exploration</h3>
+								<article class="col-4 col-12-xsmall work-item">
+									<h3>Execution video</h3>
+									<video width="320" height="240" controls>
+									  <source src="videos/sm_explorer.m4v" type="video/mp4">									
+									</video>
+								</article>
+
 
 
 
