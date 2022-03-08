@@ -1,2 +1,2 @@
 # ACE
-Website (https://visual-action-planning.github.io/ace/) for paper "ACE: Augment-Connect-Explore, Dealing with Data Scarcity in Visual Action Planning" submitted to IROS2022
+Website (https://visual-action-planning.github.io/ace/) for paper "Augment-Connect-Explore: a Paradigm for  Visual Action Planning with Data Scarcity " submitted to IROS2022
